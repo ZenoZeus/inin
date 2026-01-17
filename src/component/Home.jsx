@@ -54,7 +54,7 @@ const Home = () => {
     }
     setfpgArray(pgArr); //saves object of pages and rows
     // setFirst(0); //as look value changes we direct to first page to use the select row feature
-    getData(first/12);
+    // getData(first/12);
   }, [lookvalue]);
 
   //handle select group feature and invidual select feature together
