@@ -53,8 +53,8 @@ const Home = () => {
       pgArr.push({ [pageCount]: noOfRows });
     }
     setfpgArray(pgArr); //saves object of pages and rows
-    // setFirst(0); //as look value changes we direct to first page to use the select row feature
-    // getData(first/12);
+    setFirst(first); //as look value changes we direct to first page to use the select row feature
+    getData(first/12);
   }, [lookvalue]);
 
   //handle select group feature and invidual select feature together
